@@ -987,7 +987,7 @@
                 
                 // Criar texto flutuante
                 const text = document.createElement('div');
-                text.innerHTML = '🔥 MODO DARK ULTRA ATIVADO! 🔥';
+                text.innerHTML = '🔥';
                 text.style.cssText = `
                     position: fixed;
                     top: 50%;
@@ -1248,7 +1248,7 @@
 
         // Adicionar CSS para animações extras
         const extraStyles = document.createElement('style');
-        extraStyles.textContent = `
+        extraStyles.textContent = 
             @keyframes ultra-text {
                 0% { 
                     opacity: 0; 
@@ -1385,7 +1385,7 @@
             .animate-in {
                 animation: slideUp 0.8s ease-out forwards;
             }
-        `;
+        ;
         document.head.appendChild(extraStyles);
 
         console.log('💖 Site de Amor carregado com sucesso! happy valentines day ✨');
